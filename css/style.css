@@ -1,14 +1,7 @@
 /*
 ====================================================
-* [Master Stylesheet]
-
-  Template Name : Privado 
-  Version    :  1.0 
-  Author     :  Codetic
-  Author URI :  http://themeforest.net/user/Codetic
-====================================================
-
-   TOC:
+* 
+  TOC:
   =======
   0. Webfonts and Icon fonts Import
 
@@ -349,7 +342,7 @@ ul li {
 }
 
 .footer span {
-  color:#b1b1b1;
+  color:#000000; /*Изменение цвета нижнего футера с надписью "Вадимом Шараповым © Katko&Co в 2016 году" */
   font-size:12px;
   font-weight:400;
   margin-left:40px
@@ -1082,7 +1075,7 @@ ul li {
   color:#f9f9f9;
   font-family:PT Sans;
   font-size:14px;
-  line-height:24px;
+  line-height:18px; /*Расстояние между строками в разделе "Почему мне можно доверить проект"*/
   padding:5px 10px
 }
 
@@ -1090,7 +1083,7 @@ ul li {
   background: none repeat scroll 0 0 #fff;
   border-radius: 50%;
   box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.15);
-  color: #5246ad; /*Смена цвета иконок в разделе "Мои умения"*/
+  color: #5246ad; /*Смена цвета иконок в разделе "Почему мне можно доверить проект"*/
   display: block;
   font-size: 36px;
   height: 60px;
@@ -1565,10 +1558,6 @@ button.filter + label {
 
 /* Individual effects */
 
-
-/*---------------*/
-/***** Roxy *****/
-/*---------------*/
 
 .portfolio-items figure.effect-roxy {
   background: -webkit-linear-gradient(45deg, #3f3f46 0%, #05abe0 100%);
