@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'youremail@domain.com';
+$siteOwnersEmail = 'vadim.sharapov1@gmail.com';
 
 
 if($_POST) {
@@ -13,15 +13,15 @@ if($_POST) {
 
    // Check Name
 	if (strlen($name) < 2) {
-		$error['name'] = "Please enter your name.";
+		$error['name'] = "Пожалуйста напишите свое имя";
 	}
 	// Check Email
 	if (!preg_match('/^[a-z0-9&\'\.\-_\+]+@[a-z0-9\-]+\.([a-z0-9\-]+\.)*+[a-z]{2}/is', $email)) {
-		$error['email'] = "Please enter a valid email address.";
+		$error['email'] = "Пожалуйста напишите действительный Email адрес";
 	}
 	// Check Message
 	if (strlen($contact_message) < 15) {
-		$error['message'] = "Your message should have at least 15 characters.";
+		$error['message'] = "Ваше сообщение должно содержать как минимум 5 слов";
 	}
    // Subject
 	if ($subject == '') { $subject = "Contact Form Submission"; }
@@ -29,7 +29,7 @@ if($_POST) {
 
    // Set Message
    $message .= "Email from: " . $name . "<br />";
-	$message .= "Email address: " . $email . "<br />";
+	 $message .= "Email address: " . $email . "<br />";
    $message .= "Message: <br />";
    $message .= $contact_message;
    $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
