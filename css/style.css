@@ -561,7 +561,7 @@ ul li {
   margin-top:100vh;
   cursor:auto;
   background-color:#fff;
-  color:#3f538e;
+  color:#ff059e;
   -webkit-transition: opacity 0.4s 0s, visibility 0s 0.4s;
   -moz-transition: opacity 0.4s 0s, visibility 0s 0.4s;
   -ms-transition: opacity 0.4s 0s, visibility 0s 0.4s;
@@ -906,12 +906,12 @@ ul li {
 }
 
 .about-me .profile-image img:hover {
-  box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 12px rgba(253, 10, 145, 0.47);
 }
 
 
 .about-me .profile-image h2 {
-  color: #383737; /*Изменения цвета букв обладателя портфолио "Вадим Шарапов"*/ /*Информация изменений из файлы index.html стр. 59*/
+  color: #000000; /*Изменения цвета букв обладателя портфолио "Вадим Шарапов"*/ /*Информация изменений из файлы index.html стр. 59*/
   font-family:"PT Sans",sans-serif;
   font-size: 72px;
   font-weight: 700;
@@ -941,13 +941,13 @@ ul li {
 }
 
 .about-me .profile-image h3:before {
-  background: none repeat scroll 0 0 #4c4c50;
+  background: none repeat scroll 0 0 #ff0381
   content: "";
   height: 1px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 110px;
+  width: 150px;
 }
 
 .about-me .bio {
@@ -971,8 +971,8 @@ ul li {
 
 
 .about-me .bio h3 {
-  color: #3f3f46;
-  font-family: PT Sans;
+  color: #000000;
+  /*font-family: PT Sans;*/
   font-size: 20px;
   line-height: 28px;
   text-transform:  uppercase;
@@ -980,8 +980,8 @@ ul li {
 
 
 .about-me .bio p {
-  color:#555;
-  font-size:16px;
+  color:#464545;
+  font-size:17px;
   letter-spacing:.5px;
   line-height:22px
 }
@@ -1471,10 +1471,10 @@ button.filter + label {
 }
 
 .project-url.btn:hover {
-  background:#3f3f46;
+  background:#000000;
   text-transform: uppercase;
   color:#fff;
-  border-color:#3f3f46;
+  border-color:#000000;
 }
 
 
@@ -1505,7 +1505,7 @@ button.filter + label {
 
  .portfolio-items figure figcaption {
   padding: 2em;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   font-size: 1.25em;
   -webkit-backface-visibility: hidden;
@@ -1561,8 +1561,8 @@ button.filter + label {
 
 .portfolio-items figure.effect-roxy {
   background: -webkit-linear-gradient(45deg, #3f3f46 0%, #05abe0 100%);
-  background: linear-gradient(45deg, #3f3f46 0%,#05abe0 100%);
-  border: 10px solid #fff;
+  background: linear-gradient(45deg, #ff026a 0%,#080808 100%);
+  border: 3px solid #1f1e1e;
 }
 
 .portfolio-items figure.effect-roxy img {
@@ -1839,7 +1839,7 @@ button.filter + label {
   width:100%;
   margin:15px auto;
   padding:20px;
-  border:1px solid #d9d9da;
+  border:1px solid #000000;
   cursor:pointer;
   font-size:16px;
   text-transform: uppercase;
@@ -1848,7 +1848,7 @@ button.filter + label {
 
 .form-container button:hover {
   color:#3f3f46;
-  border:1px solid #3f3f46
+  border:1px solid #ff029a
 }
 
 .form-container input[type="email"] {
